@@ -1,0 +1,1433 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3a3de4b4-1e53-42eb-9d17-ebe43406e6b2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "25X48MM_NFC_ANTENNA:25X48MM_NFC_ANTENNA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "1"
+				(at 1.6002 0.8509 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "25X48MM_NFC_ANTENNA"
+				(at 1.27 -1.4351 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "25X48MM_NFC_ANTENNA_0_0"
+				(arc
+					(start 0 0.0254)
+					(mid 0.8402 -1.2319)
+					(end 0 -2.4892)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.1054)
+					(mid 0.8598 3.8354)
+					(end 0 2.5654)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.5654)
+					(mid 0.8598 1.2954)
+					(end 0 0.0254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.4892)
+					(mid 0.8598 -3.7592)
+					(end 0 -5.0292)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 7.62 270)
+					(length 2.4892)
+					(name "P$1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 90)
+					(length 2.4892)
+					(name "P$2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "47_100mW_0603:CL21B224KAFNNNE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL21B224KAFNNNE"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C0805"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B224KAFNNNE_220nF-224-10-25V_C5153.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5153"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL21B224KAFNNNE_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "47_100mW_0603:RS-03K470JT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RS-03K470JT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_47R-470-5_C140088.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C140088"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RS-03K470JT_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_Y_0805:XL-2012WYC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XL-2012WYC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED0805-RD_YELLOW"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7371914"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XL-2012WYC_0_1"
+				(polyline
+					(pts
+						(xy -4.06 3.3) (xy -3.05 2.79) (xy -3.56 2.29) (xy -4.06 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.05 4.32) (xy -2.03 3.81) (xy -2.54 3.3) (xy -3.05 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 1.52) (xy -3.3 2.54) (xy -2.29 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -2.29 3.56) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.78) (xy -1.27 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NFC_TH:NT3H2111W0FT1X"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NT3H2111W0FT1X"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SO-8_L4.9-W3.9-P1.27-LS6.0-BL"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2654859"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NT3H2111W0FT1X_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "LA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "FD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "LB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 151.13 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40fe3361-06c4-41e2-99fa-4d243b915311")
+	)
+	(junction
+		(at 153.67 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c622016f-d613-467c-abe8-77740f4ce349")
+	)
+	(junction
+		(at 153.67 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f287a983-abcd-44d8-b496-5ee7cc0fca00")
+	)
+	(no_connect
+		(at 129.54 113.03)
+		(uuid "8925243e-7555-439a-9d75-5086c0ed3a16")
+	)
+	(no_connect
+		(at 129.54 115.57)
+		(uuid "b1fb6f10-a4c4-4dc7-bf73-1ced4efd196f")
+	)
+	(no_connect
+		(at 149.86 115.57)
+		(uuid "ff3b75bf-9dc2-49b3-a5c4-e358972b51fa")
+	)
+	(wire
+		(pts
+			(xy 153.67 118.11) (xy 153.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005d7b62-af0e-4648-9369-72ac2a3382b3")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 151.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b090e94-0348-48c2-84a6-240d9cf9408c")
+	)
+	(wire
+		(pts
+			(xy 151.13 107.95) (xy 149.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5e06d3-aede-41e9-8e17-c6b30fd7071f")
+	)
+	(wire
+		(pts
+			(xy 149.86 110.49) (xy 151.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce5ec9a-161f-4b25-857f-91dd884132a5")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25cdd2d4-05d6-4859-b22d-8dcfd3707050")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 173.99 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b812642-0140-478a-aeeb-67d4b9cf78a5")
+	)
+	(wire
+		(pts
+			(xy 128.27 110.49) (xy 128.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce87333-cfc8-4de3-8665-83e15522e905")
+	)
+	(wire
+		(pts
+			(xy 151.13 113.03) (xy 151.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592700e5-a8cf-455f-9fe4-af5bf8d79512")
+	)
+	(wire
+		(pts
+			(xy 153.67 128.27) (xy 161.29 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c02155-9cae-44c3-b426-f9b1daacac62")
+	)
+	(wire
+		(pts
+			(xy 128.27 128.27) (xy 153.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bd0595-6d1f-4b40-96bc-5d0f9529f15f")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b736a47-ebe0-47fd-9560-c1d951020ebe")
+	)
+	(wire
+		(pts
+			(xy 128.27 107.95) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f258a56-7f69-4a53-a596-6ae7c7dbaad5")
+	)
+	(wire
+		(pts
+			(xy 151.13 97.79) (xy 151.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7432c7-404a-481e-9cc1-9ed6c240229a")
+	)
+	(wire
+		(pts
+			(xy 173.99 120.65) (xy 173.99 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4397676-3edf-44bd-8fbd-53579f9c4c00")
+	)
+	(wire
+		(pts
+			(xy 173.99 128.27) (xy 171.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f055dbce-6916-4ed3-9fe6-670a45a4805e")
+	)
+	(wire
+		(pts
+			(xy 151.13 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c7fe3e-9a3b-4827-9d40-26bf3bc4639b")
+	)
+	(wire
+		(pts
+			(xy 132.08 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd55e90d-1820-450e-9081-6a764834ae8f")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea5d589-b989-4b8f-b9e4-536ff907de16")
+	)
+	(symbol
+		(lib_id "NFC_TH:NT3H2111W0FT1X")
+		(at 139.7 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8457c49f-0e4e-4654-b2a5-d3b75a8b8ad5")
+		(property "Reference" "U1"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NT3H2111W0FT1X"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NFC:NFC_TH"
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2654859"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "419f740f-911a-4091-9652-d2321773dc7b")
+		)
+		(pin "6"
+			(uuid "73d838dc-d0e1-4073-9834-f2f537b5e9b9")
+		)
+		(pin "7"
+			(uuid "26cb1979-6ac1-489e-b25d-0ec9b14f9e87")
+		)
+		(pin "8"
+			(uuid "eab4e738-0396-4eed-b23b-504e7235a3fb")
+		)
+		(pin "4"
+			(uuid "416fc2a0-5779-4125-940e-9a19bd6ae4b4")
+		)
+		(pin "3"
+			(uuid "1ace09f8-16b6-447a-ace8-61d5c919d5f5")
+		)
+		(pin "1"
+			(uuid "c8232397-235d-4d88-9927-56af1c73d7bd")
+		)
+		(pin "2"
+			(uuid "08952571-969f-448f-a665-84d61e6c1e8f")
+		)
+		(instances
+			(project ""
+				(path "/3a3de4b4-1e53-42eb-9d17-ebe43406e6b2"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "47_100mW_0603:RS-03K470JT")
+		(at 173.99 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d37911c-16dc-410a-bd53-2b8fa1617093")
+		(property "Reference" "R1"
+			(at 176.53 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47Ω 100mW 0603"
+			(at 176.53 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "47_100mW_0603:47_100mW_0603"
+			(at 181.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_47R-470-5_C140088.html"
+			(at 184.15 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C140088"
+			(at 186.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfa97fa5-f7dc-4a1c-b285-970a26b2e61f")
+		)
+		(pin "2"
+			(uuid "385f7028-fb80-4366-b7f9-5b84f19a36d4")
+		)
+		(instances
+			(project ""
+				(path "/3a3de4b4-1e53-42eb-9d17-ebe43406e6b2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "25X48MM_NFC_ANTENNA:25X48MM_NFC_ANTENNA")
+		(at 139.7 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0c986d9-714a-45c1-9d8f-78b32be5d0ba")
+		(property "Reference" "1"
+			(at 139.7381 90.17 90)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+			)
+		)
+		(property "Value" "25X48MM_NFC_ANTENNA"
+			(at 139.7381 93.98 90)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+			)
+		)
+		(property "Footprint" "25X48_NFC_ANTENNA:25X48MM_NFC_ANTENNA"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "f8c13e4b-0873-4b1b-bb59-b7c826a46828")
+		)
+		(pin "P$1"
+			(uuid "1362edf5-66a9-4760-a3d9-772b20085020")
+		)
+		(instances
+			(project ""
+				(path "/3a3de4b4-1e53-42eb-9d17-ebe43406e6b2"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_Y_0805:XL-2012WYC")
+		(at 166.37 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3abfff6-625b-40f2-adea-6547e248c417")
+		(property "Reference" "LED1"
+			(at 165.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL-2012WYC"
+			(at 165.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_Y_0805:LED0805-RD_YELLOW"
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7371914"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6bb5531-0381-4b91-b731-6ec68c982441")
+		)
+		(pin "2"
+			(uuid "03efffe4-2a87-4f0e-a8df-81277d270cc0")
+		)
+		(instances
+			(project ""
+				(path "/3a3de4b4-1e53-42eb-9d17-ebe43406e6b2"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "47_100mW_0603:CL21B224KAFNNNE")
+		(at 153.67 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b22a0f-f409-4f0d-ab90-c5301c50c679")
+		(property "Reference" "C1"
+			(at 157.48 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nf 0805"
+			(at 157.48 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "220nf_25V_0805:C0805"
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B224KAFNNNE_220nF-224-10-25V_C5153.html"
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5153"
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74de22db-c8b1-4438-91a2-f56fa59349ff")
+		)
+		(pin "1"
+			(uuid "bbe650cd-ba60-458e-845d-c68aed2dfc9b")
+		)
+		(instances
+			(project ""
+				(path "/3a3de4b4-1e53-42eb-9d17-ebe43406e6b2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
